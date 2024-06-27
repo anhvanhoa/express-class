@@ -13,7 +13,8 @@
         }
     },
     "ts-node": {
-        "require": ["tsconfig-paths/register"] // Register tsconfig-paths để sử dụng alias trong nodejs
+        "require": ["tsconfig-paths/register"], // Register tsconfig-paths để sử dụng alias trong nodejs
+        // "swc": true
     },
     "ts-alias": {
         "baseUrl": "./src",
